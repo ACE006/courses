@@ -1,0 +1,46 @@
+.certificate{
+  padding: 120px 0 110px;
+  &__content{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__left{
+
+  }
+  &__text{
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #1E212C;
+  }
+  &__title{
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #1E212C;
+    margin: 8px 0 40px;
+  }
+  &__subtitle{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: #424551;
+    margin-bottom: 40px;
+  }
+  &__icon{
+    display: flex;
+    column-gap: 20px;
+    img{
+      width: 33.3333%;
+    }
+  }
+  &__right{
+    width: 70%;
+    position: relative;
+    img{
+      width: 100%;
+      position: absolute;
+    }
+  }
+}

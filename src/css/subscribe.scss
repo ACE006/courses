@@ -1,0 +1,26 @@
+.subscribe{
+  padding: 120px 0 180px;
+  &__content {
+    text-align: center;
+
+    &__form {
+      margin-top: 60px;
+
+      &-input {
+        width: 422px;
+        height: 52px;
+        padding-left: 16px;
+        border: 1px solid #D7DADD;
+        border-radius: 4px;
+        margin-right: 24px;
+        @include text(normal, 16px, 160%, grey);
+      }
+
+      &-btn {
+        width: 154px;
+        height: 52px;
+        border-radius: 4px;
+      }
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.footer{
+  padding: 80px 0 60px;
+  background: $blue;
+  &__row{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__info {
+    &-text {
+      @include text(normal, 12px, 150%, gray);
+      margin: 25px 0 40px;
+    }
+    &-icons {
+      display: flex;
+      column-gap: 23px;
+    }
+  }
+  &__list{
+    &-title{
+      @include text(bold, 16px, 150%, #fff);
+      text-decoration: none;
+    }
+  }
+  &__link{
+    @include text(normal, 16px, 160%, gray);
+    margin-bottom: 8px;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+  &__form{
+    &-title{
+      @include text(bold, 16px, 150%, #fff);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    &-input{
+      width: 286px;
+      height: 36px;
+      background: rgba(255, 255, 255, 0.12);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-sizing: border-box;
+      border-radius: 4px;
+      margin: 24px 0 12px;
+      &::placeholder{
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 150%;
+        color: #FFFFFF;
+      }
+    }
+    &-text{
+      @include text(normal, 10px, 150%, #fff);
+    }
+  }
+}
